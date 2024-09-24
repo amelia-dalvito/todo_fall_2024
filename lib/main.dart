@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+//NOTES------------------
 //to format document, comand option l
+//command d to compare git changes
+
 void main() {
   runApp(const MyApp());
 }
@@ -10,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'To do app fall 2024',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
